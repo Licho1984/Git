@@ -1,0 +1,10 @@
+import os
+def limpiar_pantalla():
+    # Verifica el sistema operativo
+    if os.name == 'nt':  # Windows
+        os.system('cls')
+    else:  # Unix/Linux/Mac
+        os.system('clear')
+        # llamar a la funcion 
+        limpiar_pantalla()
+        

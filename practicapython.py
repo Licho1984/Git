@@ -8,3 +8,6 @@ print("Vino la lluvia\nay se la llevó.")
 
 print("La witsi arana", "subio a su telaaraña", "vino la lluvia y se la llevo")
 
+print(14 % 4)
+
+
