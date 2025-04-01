@@ -1,15 +1,44 @@
-print("la princesa arana \n tegio su red")
-print()
-print("vino la lluvia \n y la destrullo")
 
-print("La Witsi Witsi Araña\nsubió a su telaraña.")
-print()
-print("Vino la lluvia\nay se la llevó.")
+calificacion = 85
 
-print("La witsi arana", "subio a su telaaraña", "vino la lluvia y se la llevo")
+if calificacion >= 90:
+   print ("Excelente")
 
-print(14 % 4)
-print(-4+4)
-print(3+5*9)
+elif calificacion >= 80:
+   print ("Muy bueno")
 
+elif calificacion >= 70:
+   print ("Bueno")
+
+else:
+   print ("Necesita mejorar")
+
+
+
+frutas = ["manzana", "banana", "naranja"]
+for fruta in frutas:
+    print(fruta)
+
+
+contador = 0
+while contador < 5:
+    print(contador)
+    contador += 1  
+
+contador = 0
+while True:
+    print(contador)
+    contador += 1
+    if contador == 5:
+        break      
+    
+frutas = ["manzana", "banana", "naranja"]
+print(frutas[0])
+print(frutas[1])
+print(frutas[2])
+frutas.append("kiwi")
+print(frutas)
+
+
+  
 
