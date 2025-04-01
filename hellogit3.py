@@ -18,15 +18,18 @@ print("Python")
 
 
 
-def new_func():
-    print("Mi\nnombre\nes\nBond.", end=" ")
-    print("James Bond.")
+def new_func1():
+    def new_func():
+        print("Mi\nnombre\nes\nBond.", end=" ")
+        print("James Bond.")
 
-new_func()
+    new_func()
 
-print(0x129)
+    print(0x129)
 
-print("\"Estoy'Aprendiendo\"\n\"\"\"\n\"\"\"Python\"\"\"")
+    print("\"Estoy'Aprendiendo\"\n\"\"\"\n\"\"\"Python\"\"\"")
+
+new_func1()
 
 
 
